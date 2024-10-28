@@ -1,0 +1,5 @@
+com\mycompany\eggstock\resources\JakartaEE10Resource.class
+com\mycompany\eggstock\servlets\RegistrarProduccionServlet.class
+com\mycompany\eggstock\servlets\RegistrarInventarioServlet.class
+com\mycompany\eggstock\JakartaRestConfiguration.class
+com\mycompany\eggstock\servlets\LoginServlet.class

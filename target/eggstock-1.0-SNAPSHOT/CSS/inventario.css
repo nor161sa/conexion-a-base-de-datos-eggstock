@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26/10/2024, 11:43:48 a. m.
+    Author     : Familia
+*/
+/* Centrado y estilo general de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.circle-button {
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-icon {
+    width: 60px;
+    height: 60px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.form-container {
+    border: 2px solid #d9534f; /* Color del borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Centrar horizontalmente */
+    max-width: 600px; /* Ancho máximo */
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.title {
+    text-align: center; /* Centrar el título */
+    color: #d9534f; /* Color del título */
+}
+
+.mensaje {
+    color: green; /* Color del mensaje de éxito */
+    text-align: center; /* Centrar el mensaje */
+}
+.title1{
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21/01/2024, 2:35:35 p. m.
+    Author     : Jhoalvi
+*/
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.img {
+    width: 200px;
+    height: 120px;
+}
+
+.form {
+    width: 100%;
+}
+
+.container {
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid red; /* Bordes rojos */
+    background-color: transparent; /* Fondo transparente */
+    width: 250px;
+    height: 320px;
+    margin-bottom: 50px;
+    color: appworkspace;
+}
+
+.title {
+    color: #990099;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.inputs {
+    display: grid;
+    padding: 10px 15px;
+}
+
+.input, .input2 {
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+.input::placeholder,
+.input2::placeholder {
+    color: black;
+}
+
+.input2 {
+    margin-top: 10px;
+}
+
+.btn-container {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
